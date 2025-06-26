@@ -6,7 +6,7 @@ This repository contains all the information related to the empirical study for 
 
 ## Contents
 
-1. [Evaluation](./Evaluation) contains all the programs to evaluate during the study (GridWorld, Rooms, Driving Asistant)
+1. [Evaluation](./Evaluation) contains all the programs to evaluate during the study (GridWorld, Rooms, Driving Assistant)
 2. [Guides](./Guides) contains the guides and evaluation forms for the study
 3. [Results](./Results) contains all the results for the study
 
@@ -39,4 +39,4 @@ This should take some minutes to complete. Once it has finished downloading, run
 
 If you want to participate in the evaluation of Flik feel free to download and use Flik following the guides for the evaluation contained in this repository. Make sure to fill in the form at the end of the experiments.
 
-Thanks for your coperation.
+Thanks for your cooperation.
