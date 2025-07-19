@@ -53,7 +53,7 @@ $\alpha$ defines how much old $Q(s,a)$ estimates are revised based on the new in
 learning rate ensures that, over time, the algorithm balances past knowledge with current learning, 
 gradually incorporating new information while retaining important aspects of previous learning. 
 Changing the equation in this way will disrupt the algorithm's balancing of previous and new 
-knowledge. Specifically,$(1-\alpha)$ scales the difference between the new estimate and the old 
+knowledge. Specifically, $(1-\alpha)$ scales the difference between the new estimate and the old 
 estimate. This makes the new information less influential as $\alpha$ gets larger, while the old value 
 gets re-scaled by $\alpha$,  which does not align with the expected behavior of a Q-learning update. 
 
