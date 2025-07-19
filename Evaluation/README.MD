@@ -3,7 +3,7 @@
 ## Gridworld
 
 In its original presentation, the GridWorld environment is a standard benchmark for Q-learning, 
-familiar to most \ac{RL} developers. For the study we use a larger GridWorld environment consisting 
+familiar to most RL developers. For the study we use a larger GridWorld environment consisting 
 of a $n \times m$ rectangular  board/grid ($10\times 10$ in our implementation), in which each tile 
 $(i,j)$ represents a specific state of the board. Tiles in the board may be  walls, which agents cannot 
 cross, or have a special exit status for agents to exit the board and terminate the episode. Exit tiles 
@@ -31,7 +31,7 @@ solution of increasing the value of $\epsilon$.
 The four rooms maze environment has a similar composition to GridWorld, consisting of a 
 $13\times 13$ board/grid divided in $4$ sections (i.e., rooms), with walls between them, and a door 
 opening to go from one room to another, as shown in the Figure. The agent's objective in this 
-environment is to exit through the upper-left room (the green square door in tile $(0,3)$) in the fewest 
+environment is to exit through the upper-left room (the green square door in tile $(0,3)$ ) in the fewest 
 possible number of steps. Reaching the exit state gives a reward of $1$ to the agent, and no 
 other action gives a reward to the agent. In each episode the agent starts from any valid position in the 
 grid, e.g., the yellow square in the bottom-right room in the figure. 
