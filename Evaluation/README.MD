@@ -41,17 +41,8 @@ grid, e.g., the yellow square in the bottom-right room in the figure.
 In this program, we introduced a bug in the implementation of the Bellman equation, exchanging the  
 use of the the learning rate ($\alpha$) like:
 
-\begin{itemize}
-\item Original equation:
-$
-Q(s, a) \leftarrow (1-\alpha) Q(s, a) + \alpha \left( r + \gamma \max_{a'} Q(s', a') \right)
-$
-
-\item Erroneous equation implemented:
-$
-Q(s, a) \leftarrow  \alpha Q(s, a) + (1-\alpha) \left( r + \gamma \max_{a'} Q(s', a') \right)
-$
-\end{itemize}
+- Original equation: $Q(s, a) \leftarrow (1-\alpha) Q(s, a) + \alpha \left( r + \gamma \max_{a'} Q(s', a') \right)$
+- Erroneous equation implemented: $Q(s, a) \leftarrow  \alpha Q(s, a) + (1-\alpha) \left( r + \gamma \max_{a'} Q(s', a') \right)$
 
 In the original equation, $(1-\alpha) Q(s, a)$ is the current value and $\gamma \max_{a'} Q(s', a')$ 
 is the maximum reward that can be obtained from state $s'$. This means that if the learning rate is 
