@@ -79,40 +79,164 @@ Python experience | Debugger experience | Terminal experience | RL experience
 
 ### Task questions
 
-Our second dataset is composed by different algorithms from the known domain of sorting. The objective of this evaluation is to assess the effectiveness of Out of Step to detect clones in small programs found in the wild.
+For each of the experiments we ask six questions, two of which contains 4 multiple choice questions, and two free text questions.
 
-Using a known domain enables us to validate the algorithms correctness, and to easily detect if the clones detected are true clones or false positives. This assessment is important to move forward to larger application domains with confidence about the validity of our results.
+1. Did you manage to finish the task?
+1. It was easy to solve the task?
+1. Time it took you to find the Bug?
+1. Which bugs did you find in the code? (list them separated by commas (,) )
+1. What was the main bug in the code? How would you fix it?
+
+The first three questions are used to characterize the solution of the Bugs, while the following two questions help us determine whether the task was satisfactorilly solved. In the third question, the 5 means the time taken was short (under 6 minutes), and 1 means it was a long time  (the full 30 minutes given to solve the task).
+
+#### Results Task 1
+
+Participant | Did you manage to finish the task? | It was easy to solve the task? | Time it took you to find the Bug?
+------ | ------ | ------ | ------
+1	|	5	|	1	|	2
+2	|	5	|	4	|	4
+3	|	4	|	2	|	4
+4	|	3	|	3	|	4
+5	|	4	|	3	|	3
+6	|	5	|	4	|	2
+7	|	4	|	4	|	3
+8	|	5	|	4	|	4
+9	|	5	|	5	|	2
+10	|	4	|	3	|	4
+11	|	3	|	2	|	4
+12	|	5	|	3	|	4
+13	|	5	|	4	|	3
+14	|	5	|	4	|	4
+15	|	4	|	4	|	5
+16	|	4	|	2	|	2
+17	|	5	|	4	|	2
+18	|	4	|	4	|	2
+19	|	4	|	4	|	4
+20	|	4	|	4	|	5
+21	|	5	|	5	|	4
+22	|	5	|	4	|	4
+23	|	5	|	4	|	2
+24	|	5	|	4	|	2
+25	|	4	|	4	|	3
+26	|	5	|	3	|	4
+27	|	5	|	4	|	1
+
+#### Results Task 1
+
+Participant | Did you manage to finish the task? | It was easy to solve the task? | Time it took you to find the Bug?
+------ | ------ | ------ | ------
+
+#### Results Task 2
+
+Participant | Did you manage to finish the task? | It was easy to solve the task? | Time it took you to find the Bug?
+------ | ------ | ------ | ------
+1	|	5	|	2	|	2
+2	|	5	|	4	|	4
+3	|	4	|	3	|	2
+4	|	2	|	2	|	4
+5	|	4	|	4	|	3
+6	|	1	|	1	|	1
+7	|	4	|	3	|	3
+8	|	4	|	3	|	3
+9	|	4	|	3	|	3
+10	|	5	|	3	|	2
+11	|	3	|	2	|	4
+12	|	1	|	2	|	5
+13	|	4	|	3	|	2
+14	|	4	|	4	|	3
+15	|	4	|	4	|	2
+16	|	4	|	4	|	3
+17 |	5	|	4	|	1
+18	|	4	|	4	|	3
+19	|	3	|	3	|	3
+20	|	4	|	5	|	5
+21	|	5	|	3	|	4
+22	|	4	|	3	|	4
+23	|	5	|	3	|	3
+24	|	5	|	4	|	2
+25	|	3	|	2	|	1
+26	|	4	|	3	|	5
+27	|	3	|	2	|	5
+
+#### Results Task 3
+
+Participant | Did you manage to finish the task? | It was easy to solve the task? | Time it took you to find the Bug?
+------ | ------ | ------ | ------
+1	|	5	|	2	|	2
+2	|	5	|	4	|	4
+3	|	3	|	2	|	3
+4	|	1	|	1	|	5
+5	|	4	|	4	|	3
+6	|	5	|	4	|	5
+7	|	2	|	2	|	3
+8	|	4	|	3	|	3
+9	|	3	|	2	|	3
+10	|	5	|	3	|	1
+11	|	3	|	2	|	4
+12	|	1	|	1	|	5
+13	|	4	|	3	|	2
+14	|	3	|	3	|	2
+15	|	4	|	3	|	2
+16	|	4	|	3	|	3
+17	|	5	|	2	|	1
+18	|	2	|	2	|	2
+19	|	2	|	2	|	2
+20	|	4	|	5	|	5
+21	|	5	|	3	|	4
+22	|	3	|	2	|	5
+23	|	5	|	5	|	4
+24	|	5	|	4	|	2
+25	|	1	|	1	|	1
+26	|	3	|	1	|	5
+27	|	2	|	2	|	4
+
+![python](./img/task1.png) | ![debugger](./img/task2.png) | ![terminal](./img/task3.png) 
+--- | --- | --- 
+Task 1 | Task 2 | Task 3 
 
 ### Usability questions
 
+With respect to usability we ask 12 questions to participants
 
+1. I think I would like to use this system frequently?
+1. I find the system unnecesarily complex?
+1. I think the system is easy to use?
+1. I think I would need technical support to use the system?
+1. I find the various functions of the system quite well integrated?
+1. I have found too much inconsistency in the system?
+1. I think most people would learn to use the system quickly?
+1. I found the system quite awkward to use?
+1. I have felt very safe using the system?
+1. I would need to learn many things before I could handle the system?
+1. Would this tool have been useful for a course in RL?
+1. Would you recommend this tool?
 
-<table>
-<td> Algorithm </td> <td colspan=5> Languages (with LoC) </td>
-<tr>
-  <td>Bubble</td> <td> C++ </td> <td> Dart </td><td> Java </td> <td> Kotlin </td> <td> Swift </td>
-</tr>
-<tr>
-  <td>Heap</td> <td> C++ </td> <td> Dart </td><td> Java </td> <td> Kotlin </td> <td> Swift </td>
-</tr>
-<tr>
-  <td>Insertion</td> <td> C++ </td> <td> Dart </td><td> Java </td> <td> Kotlin </td> <td> Swift </td>
-</tr>
-<tr>
-  <td>Quick</td> <td> C++ </td> <td> Dart </td><td> Java <br> Java </td> <td> Kotlin <br> Kotlin </td> <td> Swift </td>
-</tr>
-<tr>
-  <td>Selection</td> <td> C++ </td> <td> Dart </td><td> Java </td> <td> Kotlin </td> <td> Swift </td>
-</tr>
-<tr>
-  <td>Shell</td> <td> C++ </td> <td> Dart </td><td> Java </td> <td> Kotlin </td> <td> Swift </td>
-</tr>
-</table>
-
-Evaluation [results](./sorting.md)
-
-**type** | **quantity** | **source of the repositories**
----- | ---- | ----
-kotlin-dart | 50 | GitHub (4 Dart, 4 Kotlin), Students (21 Dart, 21 Kotlin)
-kotlin-swift | 52 | GitHub (12 Kotlin, 12 Swift), Students (14 Kotlin, 14 Swift)
-dart-swift | 14 | GitHub (3 Dart, 3 Swift), Students (4 Dart, 4 Swift)
+Participant | I think I would like to use this system frequently? | I find the system unnecesarily complex? | I think the system is easy to use? | I think I would need technical support to use the system? | I find the various functions of the system quite well integrated? | I have found too much inconsistency in the system? | I think most people would learn to use the system quickly? | I found the system quite awkward to use? | I have felt very safe using the system? | I would need to learn many things before I could handle the system? | Would this tool have been useful for a course in RL? | Would you recommend this tool?
+------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------
+1	|	5	|	5	|	5	|	5	|	5	|	5	|	5	|	5	|	5	|	5	|	Yes	|	Yes
+2	|	5	|	1	|	3	|	5	|	4	|	1	|	3	|	1	|	4	|	1	|	Yes	|	Yes
+3	|	5	|	2	|	2	|	5	|	2	|	1	|	2	|	3	|	2	|	5	|	Yes	|	With Improvements
+4	|	2	|	3	|	4	|	4	|	4	|	1	|	3	|	4	|	3	|	1	|	Yes	|	Maybe for experts
+5	|	4	|	3	|	3	|	4	|	4	|	3	|	3	|	4	|	4	|	4	|	Yes	|	With Improvements
+6	|	3	|	4	|	3	|	5	|	4	|	1	|	5	|	4	|	5	|	5	|	Yes	|	Sure, it is very easy to use after you understand
+7	|	3	|	4	|	3	|	2	|	4	|	2	|	5	|	3	|	3	|	1	|	Yes	|	For RL cases, yes, so I believe it fulfills its purpose.
+8	|	2	|	4	|	2	|	4	|	3	|	2	|	2	|	4	|	2	|	4	|	No	|	With Improvements
+9	|	4	|	2	|	3	|	2	|	4	|	2	|	3	|	2	|	4	|	1	|	Yes	|	Yes
+10	|	4	|	4	|	3	|	5	|	5	|	3	|	2	|	3	|	2	|	5	|	Yes	|	Maybe for experts
+11	|	2	|	2	|	4	|	3	|	4	|	1	|	3	|	2	|	5	|	4	|	Yes	|	Maybe for experts
+12	|	3	|	1	|	5	|	4	|	3	|	2	|	1	|	2	|	3	|	3	|	Yes	|	Yes
+13	|	2	|	3	|	3	|	1	|	3	|	1	|	4	|	3	|	4	|	1	|	Yes	|	With Improvements
+14	|	5	|	2	|	4	|	3	|	5	|	2	|	5	|	3	|	5	|	3	|	Yes	|	With Improvements
+15	|	4	|	4	|	2	|	4	|	4	|	1	|	3	|	3	|	2	|	3	|	Yes	|	With Improvements
+16	|	2	|	1	|	3	|	1	|	1	|	1	|	5	|	5	|	5	|	1	|	No	|	No
+17	|	5	|	3	|	3	|	5	|	5	|	2	|	4	|	3	|	3	|	3	|	Yes	|	Maybe for experts
+18	|	3	|	2	|	4	|	3	|	4	|	1	|	2	|	1	|	3	|	1	|	Yes	|	Maybe for experts
+19	|	1	|	4	|	2	|	5	|	3	|	1	|	1	|	5	|	1	|	5	|	No	|	No
+20	|	5	|	5	|	5	|	4	|	4	|	4	|	5	|	5	|	5	|	5	|	Yes	|	Yes
+21	|	4	|	1	|	4	|	2	|	5	|	1	|	4	|	4	|	5	|	5	|	Yes	|	Yes
+22	|	3	|	3	|	2	|	4	|	4	|	3	|	2	|	1	|	4	|	5	|	Yes	|	Yes
+23	|	2	|	1	|	5	|	1	|	4	|	2	|	5	|	4	|	4	|	1	|	Yes	|	Yes
+24	|	5	|	3	|	5	|	3	|	5	|	1	|	4	|	2	|	4	|	1	|	Yes	|	Yes
+25	|	2	|	3	|	3	|	5	|	2	|	3	|	2	|	3	|	3	|	4	|	Yes	|	With Improvements
+26	|	3	|	4	|	2	|	5	|	3	|	4	|	4	|	4	|	3	|	4	|	Yes	|	Need more testing
+27	|	3	|	3	|	4	|	4	|	1	|	4	|	3	|	4	|	4	|	4	|	Yes	|	Yes
