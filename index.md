@@ -43,17 +43,39 @@ This section contains six questions, two of which contains 4 multiple choice que
 
 #### Results
 
-What is your experience using python?|
-What is your experience using debuggers?|
-What is your experience using terminal?|
-What is your experience with Reinforcement Learning programs?
------- | -------------- | -------------- | --------------
-[Variable declaration](./vars.md) | 1 | integer variable declaration | C++, Dart, Java, kotlin, Swift
-[Function declaration](./funcs.md) | 1 | Stats calculation | C++, Dart, Java, Kotlin, Swift
-[Conditionals](./conditionals.md) | 1 | Test variable and return | C++, Dart, Java, Kotlin, Swift
-[Loops](./loops.md) | 2 | `for` loop <br><br> `while` loop | C++, Dart, Java, Kotlin, Swift
-[Structures](./structs.md) | 2 | Structures <br> Enumerations | C++ Swift <br> C++, Dart, Java, Kotlin, Swift
-[Classes](./classes.md) | 2 | 1-to-1 definition <br> Crossed definition | C++, Dart, Java, Kotlin, Swift <br> C++, Dart, Java, Kotlin, Swift
+Participant | What is your experience using python? | What is your experience using debuggers? | What is your experience using terminal? | What is your experience with Reinforcement Learning programs?
+------ | ------ | ------ | ------ | ------
+1	|	5	|	5	|	5	|	5
+2	|	4	|	3	|	4	|	4
+3	|	5	|	4	|	5	|	5
+4	|	5	|	1	|	4	|	4
+5	|	4	|	3	|	5	|	2
+6	|	5	|	5	|	5	|	5
+7	|	4	|	1	|	5	|	3
+8	|	5	|	1	|	4	|	4
+9	|	5	|	2	|	4	|	3
+10	|	5	|	2	|	3	|	3
+11	|	3	|	2	|	4	|	3
+12	|	5	|	4	|	5	|	5
+13	|	3	|	3	|	3	|	2
+14	|	5	|	4	|	5	|	5
+15	|	5	|	1	|	4	|	3
+16	|	5	|	5	|	4	|	3
+17	|	5	|	5	|	5	|	3
+18	|	4	|	1	|	4	|	1
+19	|	5	|	4	|	5	|	5
+20	|	5	|	4	|	4	|	1
+21	|	5	|	3	|	1	|	5
+22	|	5	|	4	|	4	|	4
+23	|	4	|	4	|	4	|	3
+24	|	5	|	5	|	5	|	2
+25	|	5	|	2	|	3	|	3
+26	|	5	|	2	|	5	|	5
+27	|	5	|	5	|	5	|	5
+
+![python](./img/experience-python.png) | ![debugger](./img/experience-debuggers.png) | ![terminal](./img/experience-terminal.png) | ![rl](./img/experience-rl.png) |
+--- | --- | --- | ---
+Python experience | Debugger experience | Terminal experience | RL experience
 
 ### Task questions
 
