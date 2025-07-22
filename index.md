@@ -8,7 +8,7 @@ To evaluate <span style="font-variant:small-caps;">Flik</span> we have an empiri
 
 Currently there are 3 tasks in the evaluation of <span style="font-variant:small-caps;">Flik</span>:
 
-1. Gridworld: An $n\times n$ matrix with two types of exit cells, traps (which give a bad reward to the agent) and exits (which give a positive reward to the agent). Additionally, there are blocked cells in which the agent cannot enter. The goal of the agent is to reach the exit cell.
+1. Gridworld: An `n x n` matrix with two types of exit cells, traps (which give a bad reward to the agent) and exits (which give a positive reward to the agent). Additionally, there are blocked cells in which the agent cannot enter. The goal of the agent is to reach the exit cell.
 1. Rooms: Is a grid-type environment with four smaller grids (a.k.a rooms) embedded into it. The rooms are connected through a door (an unblocked cell). The objective of the agent is to reach a specific point in the rooms (the exit in the top left room).
 1. Driving Assistant: A two lane street where an agent must drive at the maximum speed, on the driving lane, overtaking slow driving vehicles, and without crashing.
 
@@ -18,7 +18,7 @@ The description of the three environments can be found [here](https://github.com
 
 Our initial empirical study works consists of 27 participants who were asked to complete the three programming tasks. For each task the participants were asked to detect and fix the bug present in the implementation given to them.
 
-In the case of Gridworld, the objective of the task is that the study participants use <span style="font-variant:small-caps;">Flik</span> to navigate through the code and find out why the agent is not learning properly. Eventually, the participants should come out with the solution of increasing the value of $\epsilon$.
+In the case of Gridworld, the objective of the task is that the study participants use <span style="font-variant:small-caps;">Flik</span> to navigate through the code and find out why the agent is not learning properly. Eventually, the participants should come out with the solution of increasing the value of ε.
 
 In the case of Rooms, the objective of the task is that the participants use <span style="font-variant:small-caps;">Flik</span> to navigate through the code and find out the reason why the agent is not learning properly, afterwards we expected the participants to figure out a solution adjusting the proper value to update the Q-learning equation.
 
