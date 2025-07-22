@@ -24,9 +24,9 @@ In the case of Rooms, the objective of the task is that the participants use <sp
 
 In the case of Driving Assistant, the objective of the task is that participants explore the program using <span style="font-variant:small-caps;">Flik</span> and observe the behavior of the reward and update it so that the agent can learn to drive appropriately as expected.
 
-Finally the participants where asked to fill in a questionaire upon completing the tasks. The questionar was divided into three question groups. (1) General knowledge questions, (2) task questions, and (3) usability questions for the tool. for each of the question groups we present the questions and the obtained results.
+Finally the participants where asked to fill in a questionnaire upon completing the tasks. The questionar was divided into three question groups. (1) General knowledge questions, (2) task questions, and (3) usability questions for the tool. for each of the question groups we present the questions and the obtained results.
 
-The questionaire contains 23 multiple choice questions with a 5-points Likert scale, in which 5 means completely agree, and 1 means completely disagree. One of the questions was a yes or no question, to identify if the participants are willing to use the tool in the future. Finally, there are 10 open-answer questions, to dive deeper into feedback for the tool, and the tasks' complexity.
+The questionnaire contains 23 multiple choice questions with a 5-points Likert scale, in which 5 means completely agree, and 1 means completely disagree. One of the questions was a yes or no question, to identify if the participants are willing to use the tool in the future. Finally, there are 10 open-answer questions, to dive deeper into feedback for the tool, and the tasks' complexity.
 
 ### 1. General knowledge
 
