@@ -14,9 +14,9 @@ Currently there are 3 tasks in the evaluation of <span style="font-variant:small
 
 The description of the three environments can be found [here](https://github.com/larodriguez22/Flik_Experiments/blob/main/Evaluation/README.MD).
 
-## Empirical study
+## User study
 
-Our initial empirical study works consists of 27 participants who were asked to complete the three programming tasks. For each task the participants were asked to detect and fix the bug present in the implementation given to them.
+Our initial user study works consists of 27 participants who were asked to complete the three programming tasks. For each task the participants were asked to detect and fix the bug present in the implementation given to them.
 
 In the case of Gridworld, the objective of the task is that the study participants use <span style="font-variant:small-caps;">Flik</span> to navigate through the code and find out why the agent is not learning properly. Eventually, the participants should come out with the solution of increasing the value of ε.
 
@@ -120,11 +120,6 @@ Participant | Did you manage to finish the task? | It was easy to solve the task
 25	|	4	|	4	|	3
 26	|	5	|	3	|	4
 27	|	5	|	4	|	1
-
-#### Results Task 1
-
-Participant | Did you manage to finish the task? | It was easy to solve the task? | Time it took you to find the Bug?
------- | ------ | ------ | ------
 
 #### Results Task 2
 
