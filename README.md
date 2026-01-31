@@ -1,6 +1,6 @@
-# Flik Empirical Study
+# Flik User Study
 
-This repository contains all the information related to the empirical study for the Flik debugger for Reinforcement Learning programs.
+This repository contains all the information related to the user study for the Flik debugger for Reinforcement Learning programs.
 
 ---
 
