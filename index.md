@@ -79,7 +79,7 @@ Python experience | Debugger experience | Terminal experience | RL experience
 
 ### Task questions
 
-For each of the experiments we ask the same five questions. 3 questions us ethe Likaert scale, and the remaining two of questions are open comments to describe the detected bugs and their solution.
+For each of the experiments we ask the same five questions. 3 questions us ethe Likert scale, and the remaining two of questions are open comments to describe the detected bugs and their solution.
 
 1. Did you manage to finish the task?
 1. It was easy to solve the task?
