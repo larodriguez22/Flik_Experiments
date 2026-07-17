@@ -35,9 +35,9 @@ The questionnaire contains 23 multiple choice questions with a 5-points Likert s
 This section contains six questions, two of which contains 4 multiple choice questions, and two free text questions.
 
 1. What is your experience using python?
-1. Explain your experience using python
+1. Explain your experience using python.
 1. What is your experience using debuggers?
-1. Explain your experience using debuggers
+1. Explain your experience using debuggers.
 1. What is your experience using terminal?
 1. What is your experience with Reinforcement Learning programs?
 
@@ -79,7 +79,7 @@ Python experience | Debugger experience | Terminal experience | RL experience
 
 ### Task questions
 
-For each of the experiments we ask six questions, two of which contains 4 multiple choice questions, and two free text questions.
+For each of the experiments we ask the same five questions. 3 questions us ethe Likaert scale, and the remaining two of questions are open comments to describe the detected bugs and their solution.
 
 1. Did you manage to finish the task?
 1. It was easy to solve the task?
@@ -87,7 +87,7 @@ For each of the experiments we ask six questions, two of which contains 4 multip
 1. Which bugs did you find in the code? (list them separated by commas (,) )
 1. What was the main bug in the code? How would you fix it?
 
-The first three questions are used to characterize the solution of the Bugs, while the following two questions help us determine whether the task was satisfactorilly solved. In the third question, the 5 means the time taken was short (under 6 minutes), and 1 means it was a long time  (the full 30 minutes given to solve the task).
+The first three questions are used to characterize the solution of the Bugs, while the following two questions help us determine whether the task was satisfactorilly solved. In the third question, related to the time taken to solve the task is meant to give us an impression of the time to relate to how easy was to solve the task. In that question the scale takes 5 as a short time to solve the task (under 6 minutes), and 1 as a long time to solve the task (the full 30 minutes given to solve the task).
 
 #### Results Task 1
 
