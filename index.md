@@ -87,7 +87,7 @@ For each of the experiments we ask the same five questions. 3 questions us ethe 
 1. Which bugs did you find in the code? (list them separated by commas (,) )
 1. What was the main bug in the code? How would you fix it?
 
-The first three questions are used to characterize the solution of the Bugs, while the following two questions help us determine whether the task was satisfactorilly solved. In the third question, related to the time taken to solve the task is meant to give us an impression of the time to relate to how easy was to solve the task. In that question the scale takes 5 as a short time to solve the task (under 6 minutes), and 1 as a long time to solve the task (the full 30 minutes given to solve the task).
+The first three questions are used to characterize the solution of the Bugs, while the following two questions help us determine whether the task was satisfactorilly solved. In the third question, related to the time taken to solve the task is meant to give us an impression of the time to relate to how easy was to solve the task. In that question the scale takes 1 as a short time to solve the task (under 6 minutes), and 5 as a long time to solve the task (the full 30 minutes given to solve the task).
 
 #### Results Task 1
 
